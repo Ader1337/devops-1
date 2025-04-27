@@ -1,0 +1,9 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "A simple JavaScript project for GitHub Actions CI",
+    "main": "index.js",
+    "scripts": {
+      "test": "node test.js"
+    }
+  }
