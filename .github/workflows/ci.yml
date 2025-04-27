@@ -38,6 +38,7 @@ jobs:
       - name: Deploy via SSH
         run: |
           ssh ${{ secrets.USERNAME }}@${{ secrets.HOST }} 'bash ~/deploy.sh'
+
           
 
         
