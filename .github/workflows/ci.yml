@@ -21,8 +21,7 @@ jobs:
 
       - name: Run tests
         run: npm test
-
-         deploy:
+  deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -39,3 +38,5 @@ jobs:
       - name: Deploy via SSH
         run: |
           ssh ${{ secrets.USERNAME }}@${{ secrets.HOST }} 'bash ~/deploy.sh'
+
+        
