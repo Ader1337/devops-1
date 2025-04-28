@@ -4,6 +4,9 @@
     "description": "A simple JavaScript project for GitHub Actions CI",
     "main": "index.js",
     "scripts": {
-      "test": "node test.js"
+        "test": "node test.js"
+    },
+    "dependencies": {
+        "docker-compose": "^1.2.0"
     }
-  }
+}
